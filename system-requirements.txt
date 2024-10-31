@@ -1,0 +1,13 @@
+System Requirement-
+1. Processor - Minimum Intel Core i3 / i5
+2. RAM       - Minimum 4GB / 8GB
+3. Storage   - Minimum 256GB / 512GB
+4. OS        - Windows 10/11
+		Linux
+		MacOS
+
+Required softwares for Web Applications development
+1. Web Browser - Google Chrome / Mozilla Firefox / Microsoft Edge
+2. Code Editor - Visual Studio Code (VSCode) / Sublime text
+3. SQL Server
+4. Code IDE
