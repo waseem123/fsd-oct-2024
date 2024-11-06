@@ -6,13 +6,10 @@
     <title>Document</title>
     <style>
         table,th,td{
-            border: 1px solid rgb(207, 206, 206);
+            border: 1px solid rgb(0, 0, 0);
             border-collapse: collapse;
             padding: 8px;
-            background-color: rgb(121, 119, 119);
-            color: white;
             font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
         }
     </style>
 </head>
@@ -20,52 +17,75 @@
     <table>
         <thead>
             <tr>
-                <td>
-                    <strong>Roll No.</strong>
-                </td>
+                <th>Roll No.</th>
                 <th>Name</th>
                 <th>City</th>
                 <th>Image</th>
+                <th>Location</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td>101</td>
                 <td>Alex</td>
                 <td>London</td>
                 <td>
-                    <img width="150px" src="img/student.jpg" alt="">
+                    <img width="100px" src="img/student.jpg" alt="">
+                </td>
+                <td>
+                    <a target="_blank" href="https://maps.app.goo.gl/9UjzoiMhJavuWPfM8">Solapur Railway Station</a>
                 </td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>Roger</td>
+                <td>102</td>
+                <td>John</td>
                 <td>Paris</td>
                 <td>
-                    <img width="150px" src="img/student.jpg" alt="">
+                    <img width="100px" src="img/student.jpg" alt="">
                 </td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Peter</td>
-                <td>LA</td>
+                <td>103</td>
+                <td>Eduardo</td>
+                <td>California</td>
                 <td>
-                    <img width="150px" src="img/student.jpg" alt="">
+                    <img width="100px" src="img/student.jpg" alt="">
                 </td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>Ben</td>
-                <td>San Fransisco</td>
+                <td>104</td>
+                <td>Alexa</td>
+                <td rowspan="2">London</td>
                 <td>
-                    <img width="150px" src="img/student.jpg" alt="">
+                    <img width="100px" src="img/student.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Leo</td>
+                <td>
+                    <img width="100px" src="img/student.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>Charlie</td>
+                <td rowspan="2">LA</td>
+                <td>
+                    <img width="100px" src="img/student.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td>Brian</td>
+                <td>
+                    <img width="100px" src="img/student.jpg" alt="">
                 </td>
             </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <td>Total - 4 students</td>
-            </tr>
+            <th>Total</th>
+            <td colspan="3"> 5 students in the table</td>
         </tfoot>
     </table>
 </body>
