@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <p>
+            <label for="">Select Blood Group</label>
+            <br>
+
+            <label for="o">
+                <input id="o" value="o+" type="radio" name="bloodgroup">O+
+            </label>
+
+            <label for="a">
+                <input id="a" value="a+" type="radio" name="bloodgroup">A+
+            </label>
+
+            <input id="b" value="b+" type="radio" name="bloodgroup">
+            <label for="b">B+</label>
+
+            <label for="ab">
+                <input value="ab+" type="radio" id="ab" name="bloodgroup">AB+
+            </label>
+        </p>
+
+        <p>
+            <label for="">Favourite Language</label><br>
+            <label for="">
+                <input type="checkbox" name="lang[]" value="c"> C
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="lang[]" value="c++"> C++
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="lang[]" value="java"> Java
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="lang[]" value="python"> Python
+            </label>
+        </p>
+        <hr>
+        <p>
+            <label for="">Select City</label><br>
+            <select name="city" id="">
+                <option value="SUR">Solapur</option>
+                <option value="PUN">Pune</option>
+                <option value="MUM">Mumbai</option>
+                <option value="BLR">Bengaluru</option>
+                <option value="HYD" selected>Hyderabad</option>
+                <option value="NSK">Nasik</option>
+                <option value="JPR">Jaipur</option>
+                <option value="KKR">Kolkata</option>
+                <option value="DEL">Delhi</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="">Select City</label><br>
+            <select multiple name="cities" id="" size="9">
+                <option value="SUR">Solapur</option>
+                <option value="PUN">Pune</option>
+                <option value="MUM">Mumbai</option>
+                <option value="BLR">Bengaluru</option>
+                <option value="HYD">Hyderabad</option>
+                <option value="NSK">Nasik</option>
+                <option value="JPR">Jaipur</option>
+                <option value="KKR">Kolkata</option>
+                <option value="DEL">Delhi</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            <label for="">Select Price Range</label>
+            <input type="range" name="pricerange" step="100" min="1000" max="2000">
+        </p>
+
+        <p>
+            <label for="">Address</label>
+            <textarea name="" id=""></textarea>
+        </p>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
